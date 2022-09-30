@@ -4,7 +4,7 @@
 
 * string functions
 ```javascript
-const supplements = require('./supplements');
+const supplements = require('supplements');
 
 supplements.setupStringProto();
 
@@ -16,7 +16,7 @@ console.log(s.toKebabCase());
 
 * Number functions
 ```javascript
-const supplements = require('./supplements');
+const supplements = require('supplements');
 
 supplements.setupNumberProto();
 
@@ -29,7 +29,7 @@ console.log(supplements.toBinary(1234));
 
 * other functions
 ```javascript
-const supplements = require('./supplements');
+const supplements = require('supplements');
 
 async function promisedFun() {
     ...
