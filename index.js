@@ -1,7 +1,19 @@
-const {toBinary} = require("./functions");
+const {
+    setupNumberProto,
+    toBinary,
+} = require("./functions/math");
 
-module.exports = (input) => {
-    return {
-        toBinary: toBinary(input),
-    }
+const {
+    delay
+} = require("./functions/process");
+
+const {
+    setupStringProto
+} = require('./functions/strings');
+
+module.exports = {
+    setupNumberProto,
+    toBinary,
+    delay,
+    setupStringProto,
 }
