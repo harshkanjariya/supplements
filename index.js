@@ -4,16 +4,20 @@ const {
 } = require("./functions/math");
 
 const {
-    delay
-} = require("./functions/process");
+    delay,
+    lineNumber,
+} = require("./functions/other");
 
 const {
-    setupStringProto
+    setupStringProto,
+    randomString,
 } = require('./functions/strings');
 
 module.exports = {
     setupNumberProto,
     toBinary,
     delay,
+    lineNumber,
     setupStringProto,
+    randomString,
 }

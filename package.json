@@ -1,7 +1,7 @@
 {
     "name": "supplements",
-    "version": "1.0.1",
-    "description": "",
+    "version": "1.0.2",
+    "description": "This library contains basic javascript functions used in daily life i.e. random string generator",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"

@@ -12,6 +12,11 @@ const s = 'hello, how are you?';
 console.log(s.toCamelCase());
 console.log(s.toPascalCase());
 console.log(s.toKebabCase());
+
+console.log(supplements.randomString(5, {
+    upperCaseChars: true,
+    lowerCaseChars: true,
+}));
 ```
 
 * Number functions
@@ -36,4 +41,6 @@ async function promisedFun() {
     await supplements.delay(5000); // this line will wait for 5 sec
     ...
 }
+// print lineNumber of current line
+console.log(supplements.lineNumber());
 ```
